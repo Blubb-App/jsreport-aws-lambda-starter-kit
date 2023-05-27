@@ -1,0 +1,22 @@
+{
+    "name": "organizations-header",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "1.5cm",
+        "marginRight": "1.5cm",
+        "marginLeft": "1.cm"
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "creationDate": {
+        "$$date": 1685045566842
+    },
+    "modificationDate": {
+        "$$date": 1685152571917
+    },
+    "shortid": "e0Evj2j",
+    "_id": "ldmMDJ3lfq9X7uDn",
+    "$entitySet": "templates"
+}

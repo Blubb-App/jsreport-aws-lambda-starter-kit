@@ -1,3 +1,4 @@
+const AWS = require('aws-sdk')
 const chromium = require('@sparticuz/chrome-aws-lambda')
 const JsReport = require('jsreport')
 const FS = require('fs-extra')
@@ -28,14 +29,32 @@ const init = (async () => {
 })()
 
 exports.handler = async (event) => {  
-  console.log('handling event')
+  console.log('handling event', event)
   await init
 
-  const res = await jsreport.render(event.renderRequest)
+  const template = JSON.parse(event.Records[0].body);
+  
+  const res = await jsreport.render({
+    "template": {
+      "name": template.id
+    }
+  });
+
+  const s3 = new AWS.S3();
+  await s3.upload({
+    Bucket: template.bucket,
+    Key: template.key,
+    Body: res.content, // Buffer.from(JSON.stringify(listMaps)),
+    // ContentEncoding: 'base64',
+    ContentType: 'application/pdf',
+    // ACL: 'public-read'
+  }).promise()
   
   const response = {
       statusCode: 200,
-      body: res.content.toString('base64'),
+      body: JSON.stringify({
+        success: true
+      }), // res.content.toString('base64'),
   }
 
   return response

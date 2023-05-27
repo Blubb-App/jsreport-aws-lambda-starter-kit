@@ -1,0 +1,16 @@
+{
+    "name": "organizations-script",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "creationDate": {
+        "$$date": 1685045566867
+    },
+    "modificationDate": {
+        "$$date": 1685150657495
+    },
+    "shortid": "dTqixyH",
+    "_id": "Byg23U1uGxYRSQhH",
+    "$entitySet": "scripts",
+    "scope": "template",
+    "isGlobal": false
+}

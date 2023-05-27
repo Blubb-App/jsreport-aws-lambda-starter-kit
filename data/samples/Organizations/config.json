@@ -1,0 +1,14 @@
+{
+    "name": "Organizations",
+    "__entitySet": "folders",
+    "__name": "Orders",
+    "creationDate": {
+        "$$date": 1685045566782
+    },
+    "modificationDate": {
+        "$$date": 1685150540449
+    },
+    "shortid": "LtfPBRA",
+    "_id": "TW1bPGfs3kDs7NxR",
+    "$entitySet": "folders"
+}

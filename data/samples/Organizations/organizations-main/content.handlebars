@@ -1,0 +1,61 @@
+<!--
+More complex example demonstrating advanced features like
+- using custom server script to fetch remote data
+- using custom modules in safe sandbox
+- painting a chart
+- using global helpers
+- merging custom dynamic header document
+
+Note: This example requires jsreport to be configured with
+{ "allowLocalFilesAccess": true } or
+{ "sandbox": { "allowedModules": ["https"] } }
+!-->
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+  </head>
+  <body>
+    <div class="invoice-box">
+      <table cellpadding="0" cellspacing="0">
+        <tr class="top">
+          <td colspan="2">
+            <table>
+              <tr>
+                <td class="title">
+                  <img src="{{asset "invoice-logo.png" "dataURI"}}" style="width:100%; max-width:75px; margin-top: -10px" />
+                </td>
+                <td>
+                  <h1>Organizations</h1>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <table class='table striped'>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Owner</th>
+                <th>Status</th>
+                <th>Last Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each organizations}}
+            <tr>
+                <td>{{id}}</td>
+                <td style="width:30%; max-width:200px;">{{name}}</td>
+                <td>{{email}}</td>
+                <td>{{status}}</td>
+                <td style="width:20%; max-width:100px;">{{updated}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <div style='page-break-after: always;'></div>
+  </body>
+</html>
