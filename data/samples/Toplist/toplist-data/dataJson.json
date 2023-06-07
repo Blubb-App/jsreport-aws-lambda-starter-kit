@@ -1,0 +1,683 @@
+{
+    "topList": {
+        "creators": [
+            {
+                "count": 107,
+                "userData": {
+                    "name": "Pedro Damasceno",
+                    "categories": [
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "a0a1cc49-4040-477f-ad59-1bbc1e7519ea",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "d9b86376-813a-4608-b116-b098642212a9"
+                    ],
+                    "email": "app.blubb.2021@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcg7IIkRGO_cdAhmvo5CcaxqJCjILCUSq6WNKhd=s96-c",
+                    "profile": "Blubber"
+                },
+                "lastIndex": 0,
+                "userID": "1e1cebd4-3407-4505-9594-b17be81011e9"
+            },
+            {
+                "count": 49,
+                "userData": {
+                    "name": "Sthefan",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "sthefanko@yahoo.com.br",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/da0a1f21-c93b-4592-9bb1-d0bb8456f487.jpg",
+                    "profile": "Brasileiro, mineiro, atleticano, marido da Lorena, pai do Vitor e do Theo, fundador do Blubb"
+                },
+                "lastIndex": 1,
+                "userID": "2c2f13a1-6d4c-4769-b33f-5604320f8f83"
+            },
+            {
+                "count": 38,
+                "userData": {
+                    "name": "Daniela Fenelon",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "924b4475-b4c4-4f7b-b759-7734f60f6286",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "6ee79ba5-21ce-4066-afbd-a16581f42499",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "2c0cad11-8e64-405f-b99c-f7d496daa626"
+                    ],
+                    "email": "daniela.fenelon@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcSiJfdvYO3yO6M3phxCTD0NwpgpZwotqkLDOIj=s96-c"
+                },
+                "lastIndex": 2,
+                "userID": "c280ed31-1d85-4db4-8d8e-f78283cbbee0"
+            },
+            {
+                "count": 20,
+                "userData": {
+                    "name": "Luiz Correia",
+                    "categories": [
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "460fd255-17b1-480e-9d74-3f7bf44a72c4",
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "924b4475-b4c4-4f7b-b759-7734f60f6286",
+                        "6ee79ba5-21ce-4066-afbd-a16581f42499",
+                        "3a85dd5e-b321-44a1-9013-96c088539acb",
+                        "d9b86376-813a-4608-b116-b098642212a9",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34",
+                        "f9db0410-557c-407d-9683-ad7af7aa72f2",
+                        "017ea913-b024-4c64-8031-d6b6c8636260"
+                    ],
+                    "email": "luiz@luizcorreia.eti.br",
+                    "picture": "#"
+                },
+                "lastIndex": 3,
+                "userID": "4c4fe3e2-3156-4c4e-8d4a-ef50e461e4ef"
+            },
+            {
+                "count": 18,
+                "userData": {
+                    "name": "Diego Alves",
+                    "categories": [
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "alvesdiego18@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtdMBq3ioiMOhy-8ju7X4iYZEhnBOIUsm0yK1ScEdg=s96-c"
+                },
+                "lastIndex": 4,
+                "userID": "d0a7e192-51e1-47c7-a70d-bb074a3d4a0b"
+            },
+            {
+                "count": 6,
+                "userData": {
+                    "name": "Thiago Dótoli Bento",
+                    "categories": [
+                        "f9f9d116-1df0-4121-932f-9bee60758433",
+                        "6d3772c0-f18c-4622-90c3-05cffa154eb9"
+                    ],
+                    "email": "thiago.dotoli.bento@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AGNmyxaAQO2cUSctUhfrfd4iwbW5wmOhIhaLNtRnhGfYBOw=s96-c",
+                    "profile": "user data profile"
+                },
+                "lastIndex": 5,
+                "userID": "26b06938-17e2-472a-9207-0b6abb8c8914"
+            },
+            {
+                "count": 5,
+                "userData": {
+                    "name": "Diego",
+                    "email": "diegodiego@mozej.com",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160"
+                    ]
+                },
+                "lastIndex": 6,
+                "userID": "3be49c74-aa76-418c-acee-78926a92996b"
+            },
+            {
+                "count": 5,
+                "userData": {
+                    "name": "User 02",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "user02@mozej.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/4fd8fe3c-7374-4f38-b8a3-b7b1ae96c377.jpg",
+                    "profile": "Taste"
+                },
+                "lastIndex": 7,
+                "userID": "54c3cd9c-c2a8-4038-95b5-1ee5b1072d26"
+            },
+            {
+                "count": 5,
+                "userData": {
+                    "name": "Lorena",
+                    "categories": [
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "13e69a86-fb6b-4907-bb76-7938f599b679",
+                        "d9b86376-813a-4608-b116-b098642212a9",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "ea086c67-8f3c-4b59-803f-673d9f7d35f7",
+                        "b8fddcb3-f6ef-4410-84d4-e38cc54ca737",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "3a85dd5e-b321-44a1-9013-96c088539acb",
+                        "bc0896b6-89e4-45f8-af91-ec856d329022",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34"
+                    ],
+                    "email": "lorenaafc@hotmail.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/20abc5d1-e67a-43cf-ac70-f06f14754b18.jpg"
+                },
+                "lastIndex": 8,
+                "userID": "f5fa568d-55f5-4e7e-b240-794c0df8433d"
+            },
+            {
+                "count": 2,
+                "userData": {
+                    "name": "Thiago Dotoli",
+                    "categories": [
+                        "f9f9d116-1df0-4121-932f-9bee60758433",
+                        "6d3772c0-f18c-4622-90c3-05cffa154eb9"
+                    ],
+                    "email": "thiagodb.linkedin@outlook.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AEdFTp75sGLP2qDIujOPtvHDjQ_NYb4N66Gf1ykyj8fEaw=s96-c",
+                    "profile": "user data profile"
+                },
+                "lastIndex": 9,
+                "userID": "42a34445-7f28-4deb-8a1d-62a9e35bfed1"
+            }
+        ],
+        "interactions": [
+            {
+                "count": 88,
+                "userData": {
+                    "name": "Pedro Damasceno",
+                    "categories": [
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "a0a1cc49-4040-477f-ad59-1bbc1e7519ea",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "d9b86376-813a-4608-b116-b098642212a9"
+                    ],
+                    "email": "app.blubb.2021@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcg7IIkRGO_cdAhmvo5CcaxqJCjILCUSq6WNKhd=s96-c",
+                    "profile": "Blubber"
+                },
+                "lastIndex": 0,
+                "userID": "1e1cebd4-3407-4505-9594-b17be81011e9"
+            },
+            {
+                "count": 18,
+                "userData": {
+                    "name": "Sthefan",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "sthefanko@yahoo.com.br",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/da0a1f21-c93b-4592-9bb1-d0bb8456f487.jpg",
+                    "profile": "Brasileiro, mineiro, atleticano, marido da Lorena, pai do Vitor e do Theo, fundador do Blubb"
+                },
+                "lastIndex": 1,
+                "userID": "2c2f13a1-6d4c-4769-b33f-5604320f8f83"
+            },
+            {
+                "count": 12,
+                "userData": {
+                    "name": "Diego Alves",
+                    "categories": [
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "alvesdiego18@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtdMBq3ioiMOhy-8ju7X4iYZEhnBOIUsm0yK1ScEdg=s96-c"
+                },
+                "lastIndex": 2,
+                "userID": "d0a7e192-51e1-47c7-a70d-bb074a3d4a0b"
+            },
+            {
+                "count": 7,
+                "userData": {
+                    "name": "Daniela Fenelon",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "924b4475-b4c4-4f7b-b759-7734f60f6286",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "6ee79ba5-21ce-4066-afbd-a16581f42499",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "2c0cad11-8e64-405f-b99c-f7d496daa626"
+                    ],
+                    "email": "daniela.fenelon@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcSiJfdvYO3yO6M3phxCTD0NwpgpZwotqkLDOIj=s96-c"
+                },
+                "lastIndex": 3,
+                "userID": "c280ed31-1d85-4db4-8d8e-f78283cbbee0"
+            },
+            {
+                "count": 7,
+                "userData": {
+                    "name": "Lorena",
+                    "categories": [
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "13e69a86-fb6b-4907-bb76-7938f599b679",
+                        "d9b86376-813a-4608-b116-b098642212a9",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "ea086c67-8f3c-4b59-803f-673d9f7d35f7",
+                        "b8fddcb3-f6ef-4410-84d4-e38cc54ca737",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "3a85dd5e-b321-44a1-9013-96c088539acb",
+                        "bc0896b6-89e4-45f8-af91-ec856d329022",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34"
+                    ],
+                    "email": "lorenaafc@hotmail.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/20abc5d1-e67a-43cf-ac70-f06f14754b18.jpg"
+                },
+                "lastIndex": 4,
+                "userID": "f5fa568d-55f5-4e7e-b240-794c0df8433d"
+            },
+            {
+                "count": 4,
+                "userData": {
+                    "name": "Thiago Dótoli Bento",
+                    "categories": [
+                        "f9f9d116-1df0-4121-932f-9bee60758433",
+                        "6d3772c0-f18c-4622-90c3-05cffa154eb9"
+                    ],
+                    "email": "thiago.dotoli.bento@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AGNmyxaAQO2cUSctUhfrfd4iwbW5wmOhIhaLNtRnhGfYBOw=s96-c",
+                    "profile": "user data profile"
+                },
+                "lastIndex": 5,
+                "userID": "26b06938-17e2-472a-9207-0b6abb8c8914"
+            },
+            {
+                "count": 1,
+                "userData": {
+                    "name": "User 02",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "user02@mozej.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/4fd8fe3c-7374-4f38-b8a3-b7b1ae96c377.jpg",
+                    "profile": "Taste"
+                },
+                "lastIndex": 6,
+                "userID": "54c3cd9c-c2a8-4038-95b5-1ee5b1072d26"
+            }
+        ],
+        "followers": [
+            {
+                "count": 4,
+                "userData": {
+                    "name": "Pedro Damasceno",
+                    "categories": [
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "a0a1cc49-4040-477f-ad59-1bbc1e7519ea",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "d9b86376-813a-4608-b116-b098642212a9"
+                    ],
+                    "email": "app.blubb.2021@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcg7IIkRGO_cdAhmvo5CcaxqJCjILCUSq6WNKhd=s96-c",
+                    "profile": "Blubber"
+                },
+                "lastIndex": 0,
+                "userID": "1e1cebd4-3407-4505-9594-b17be81011e9"
+            },
+            {
+                "count": 3,
+                "userData": {
+                    "name": "Daniela Fenelon",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "924b4475-b4c4-4f7b-b759-7734f60f6286",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "6ee79ba5-21ce-4066-afbd-a16581f42499",
+                        "81ecc182-9e8a-4f57-aaf6-ad9baf0a85f7",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "2c0cad11-8e64-405f-b99c-f7d496daa626"
+                    ],
+                    "email": "daniela.fenelon@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtcSiJfdvYO3yO6M3phxCTD0NwpgpZwotqkLDOIj=s96-c"
+                },
+                "lastIndex": 1,
+                "userID": "c280ed31-1d85-4db4-8d8e-f78283cbbee0"
+            },
+            {
+                "count": 3,
+                "userData": {
+                    "name": "Sthefan",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "sthefanko@yahoo.com.br",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/da0a1f21-c93b-4592-9bb1-d0bb8456f487.jpg",
+                    "profile": "Brasileiro, mineiro, atleticano, marido da Lorena, pai do Vitor e do Theo, fundador do Blubb"
+                },
+                "lastIndex": 2,
+                "userID": "2c2f13a1-6d4c-4769-b33f-5604320f8f83"
+            },
+            {
+                "count": 2,
+                "userData": {
+                    "name": "Diego Alves",
+                    "categories": [
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "alvesdiego18@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AAcHTtdMBq3ioiMOhy-8ju7X4iYZEhnBOIUsm0yK1ScEdg=s96-c"
+                },
+                "lastIndex": 3,
+                "userID": "d0a7e192-51e1-47c7-a70d-bb074a3d4a0b"
+            },
+            {
+                "count": 2,
+                "userData": {
+                    "name": "Thiago Dótoli Bento",
+                    "categories": [
+                        "f9f9d116-1df0-4121-932f-9bee60758433",
+                        "6d3772c0-f18c-4622-90c3-05cffa154eb9"
+                    ],
+                    "email": "thiago.dotoli.bento@gmail.com",
+                    "picture": "https://lh3.googleusercontent.com/a/AGNmyxaAQO2cUSctUhfrfd4iwbW5wmOhIhaLNtRnhGfYBOw=s96-c",
+                    "profile": "user data profile"
+                },
+                "lastIndex": 4,
+                "userID": "26b06938-17e2-472a-9207-0b6abb8c8914"
+            },
+            {
+                "count": 1,
+                "userData": {
+                    "name": "Diego",
+                    "email": "diegodiego@mozej.com",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160"
+                    ]
+                },
+                "lastIndex": 5,
+                "userID": "3be49c74-aa76-418c-acee-78926a92996b"
+            },
+            {
+                "count": 1,
+                "userData": {
+                    "name": "Lorena",
+                    "categories": [
+                        "f699939d-12cd-4a34-a4d4-c4ecad1b0770",
+                        "e0031773-f032-400c-87b3-c637c3658a13",
+                        "4ca408ba-401a-4432-952e-73fa979e4555",
+                        "13e69a86-fb6b-4907-bb76-7938f599b679",
+                        "d9b86376-813a-4608-b116-b098642212a9",
+                        "017ea913-b024-4c64-8031-d6b6c8636260",
+                        "ea086c67-8f3c-4b59-803f-673d9f7d35f7",
+                        "b8fddcb3-f6ef-4410-84d4-e38cc54ca737",
+                        "0e731f9a-5700-476f-b674-9467f39e0eaa",
+                        "945aaa5c-7bb8-435a-aaca-8698cd24e369",
+                        "915cb1f5-9d79-4033-8bd6-e7d0bb2f830f",
+                        "3a85dd5e-b321-44a1-9013-96c088539acb",
+                        "bc0896b6-89e4-45f8-af91-ec856d329022",
+                        "3621f5d4-16de-4370-9e19-dd404fe9fd34"
+                    ],
+                    "email": "lorenaafc@hotmail.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/20abc5d1-e67a-43cf-ac70-f06f14754b18.jpg"
+                },
+                "lastIndex": 6,
+                "userID": "f5fa568d-55f5-4e7e-b240-794c0df8433d"
+            },
+            {
+                "count": 1,
+                "userData": {
+                    "name": "User 02",
+                    "categories": [
+                        "7910ee0c-d280-49f5-81e8-98c9a6b2c8be",
+                        "f4b3e04a-2cf9-4485-8978-612cfc527160",
+                        "cbc76199-5b89-4a0a-9849-b401550e0af3"
+                    ],
+                    "email": "user02@mozej.com",
+                    "picture": "https://s3.amazonaws.com/blubb-backend-967497861764-us-east-1-media-source/picture/4fd8fe3c-7374-4f38-b8a3-b7b1ae96c377.jpg",
+                    "profile": "Taste"
+                },
+                "lastIndex": 7,
+                "userID": "54c3cd9c-c2a8-4038-95b5-1ee5b1072d26"
+            }
+        ]
+    },
+    "evolution": {
+        "medias": [
+            0,
+            259,
+            0
+        ],
+        "users": {
+            "months": {
+                "labels": [
+                    "Sep",
+                    "Nov",
+                    "Jan",
+                    "Feb",
+                    "Apr",
+                    "May"
+                ],
+                "datasets": {
+                    "data": [
+                        11,
+                        3,
+                        1,
+                        1,
+                        6,
+                        14
+                    ],
+                    "label": "Cadastros"
+                }
+            },
+            "avg": 6
+        },
+        "blubbs": {
+            "months": {
+                "labels": [
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun"
+                ],
+                "datasets": {
+                    "data": [
+                        43,
+                        33,
+                        37,
+                        20,
+                        19,
+                        46,
+                        39,
+                        2,
+                        16,
+                        4
+                    ],
+                    "label": "Cadastros"
+                }
+            },
+            "avg": 25.9
+        }
+    },
+    "totals": {
+        "blubb": 259,
+        "user": {
+            "active": 20,
+            "newsInMonth": 0,
+            "inactive": 17,
+            "percentVariantLastMonth": 0
+        },
+        "burst": 0
+    },
+    "id": "backoffice:admin",
+    "categories": {
+        "labels": [
+            "Design",
+            "Street Art",
+            "Sports",
+            "Home",
+            "Gaming",
+            "Party",
+            "Movies",
+            "Brands",
+            "Memes",
+            "Politics",
+            "Nature",
+            "Food and drink",
+            "Cars",
+            "Urban Life",
+            "Technology",
+            "Innovation",
+            "Travel",
+            "Celebs",
+            "Information",
+            "Fashion",
+            "Architeture",
+            "Adventure",
+            "Weather",
+            "Art",
+            "Fitness",
+            "Pets",
+            "Night Life",
+            "Music",
+            "Health",
+            "Purchases",
+            "History"
+        ],
+        "datasets": [
+            {
+                "backgroundColor": "rgba(209, 209, 224, 0.8)",
+                "color": "dark",
+                "data": [
+                    "0.39370078740157477",
+                    "0.7874015748031495",
+                    "0.7874015748031495",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "100",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "label": "Cadastradas"
+            },
+            {
+                "backgroundColor": "rgba(153, 204, 255, 0.8)",
+                "color": "info",
+                "data": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "label": "Acessadas"
+            },
+            {
+                "backgroundColor": "rgba(255, 204, 153, 0.8)",
+                "color": "warning",
+                "data": [
+                    "100",
+                    "100",
+                    "90",
+                    "70",
+                    "70",
+                    "50",
+                    "60",
+                    "40",
+                    "40",
+                    "40",
+                    "10",
+                    "50",
+                    "30",
+                    "10",
+                    "30",
+                    "20",
+                    "0",
+                    "10",
+                    "20",
+                    "30",
+                    "30",
+                    "0",
+                    "0",
+                    "30",
+                    "0",
+                    "10",
+                    "10",
+                    "30",
+                    "10",
+                    "10",
+                    "20"
+                ],
+                "label": "Interesse"
+            }
+        ]
+    }
+}

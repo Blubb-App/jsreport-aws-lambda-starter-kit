@@ -1,0 +1,189 @@
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+        <style>
+            {{asset "dashboard-styles.css" "utf8"}}
+        </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td class="title">
+                                    <img src="{{asset "dashboard-logo.png" "dataURI"}}" style="width:25%; max-width:300px;" />
+                                </td>
+                                <td>
+                                    Visão #: {{id}}
+                                    <br> Data relatório: {{nowLocalStr}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="heading">
+                    <td>
+                        Informação
+                    </td>
+                    <td>
+                        Totais
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                        Usuários ativos
+                    </td>
+                    <td>
+                        {{totals.user.active}}
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                        Usuários inativos
+                    </td>
+                    <td>
+                        {{totals.user.inactive}}
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                        Novos usuários no mês
+                    </td>
+                    <td>
+                        {{totals.user.newsInMonth}} ({{totals.user.percentVariantLastMonth}}% que no mês anterior)
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                        Blubbs criadas
+                    </td>
+                    <td>
+                        {{totals.blubb}}
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                        Blubbs estouradas
+                    </td>
+                    <td>
+                        {{totals.burst}}
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>                 
+                <tr class="heading">
+                    <td>
+                        Gráficos
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+               
+            </table>
+            <canvas id='chart-user' style="margin-top:30px;padding:20px;"></canvas>
+            <canvas id='chart-blubb' style="margin-top:30px;padding:20px;"></canvas>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p style="text-align:center;">Distribuição de Midias nas Blubbs</p>
+            <canvas id='chart-media' style="margin-top:30px;margin-botton:150px;"></canvas>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p style="text-align:center;">Distribuição de Categorias</p>
+            <canvas id='chart-categories' style="margin-top:50px;"></canvas>
+
+            <script>
+                Chart.defaults.global.legend.display = true;
+
+                new Chart(document.getElementById('chart-user').getContext('2d'), {
+                    type: 'line',
+                    data:  {
+                        labels: {{{toJS evolution.users.months.labels}}},
+                        datasets: [{
+                            label: "Evolução de usuários (média = {{ceil evolution.users.avg}})",
+                            data: {{{toJS evolution.users.months.datasets.data}}},
+                            fill: false,
+                            borderColor: 'rgb(75, 192, 192)',
+                            tension: 0.1,
+                            borderWidth: 5
+                        }]
+                    },
+                    options: {
+                        animation: {
+                            duration: 0
+                        }
+                    }
+                });
+                new Chart(document.getElementById('chart-blubb').getContext('2d'), {
+                    type: 'line',
+                    data:  {
+                        labels: {{{toJS evolution.blubbs.months.labels}}},
+                        datasets: [{
+                            label: "Evolução de blubbs (média = {{ceil evolution.blubbs.avg}})",
+                            data: {{{toJS evolution.blubbs.months.datasets.data}}},
+                            fill: false,
+                            borderColor: 'rgb(75, 100, 192)',
+                            tension: 0.1,
+                        }]
+                    },
+                    options: {
+                        animation: {
+                            duration: 0
+                        }
+                    }
+                });
+                new Chart(document.getElementById('chart-media').getContext('2d'), {
+                    type: 'doughnut',
+                    data:  {
+                        labels: ["Textos", "Fotos", "Vídeos"],
+                        datasets: [{
+                            label: "Distribuição de Midias nas Blubbs",
+                            data: {{{toJS evolution.medias}}},
+                            backgroundColor: [
+                                'rgba(255, 0, 0, 0.8)',
+                                'rgba(0, 255, 0, 0.8)',
+                                'rgba(0, 0, 255, 0.8)',
+                            ]
+                        }]
+                    },
+                    options: {
+                        animation: {
+                            duration: 0
+                        }
+                    }
+                });
+                new Chart(document.getElementById('chart-categories').getContext('2d'), {
+                    type: 'radar',
+                    data:  {{{toJS categories}}},
+                    options: {
+                        animation: {
+                            duration: 0
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </body>
+</html>

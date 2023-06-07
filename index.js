@@ -37,7 +37,8 @@ exports.handler = async (event) => {
   const res = await jsreport.render({
     "template": {
       "name": template.id
-    }
+    },
+    "data": template.hasOwnProperty("data") ? template.data : undefined
   });
 
   const s3 = new AWS.S3();

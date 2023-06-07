@@ -1,0 +1,19 @@
+{
+    "name": "Toplist",
+    "__entitySet": "folders",
+    "__name": "Dashboard",
+    "__isDirty": false,
+    "__shortid": "G3i2B3",
+    "__folder": {
+        "shortid": "AKZn3N9"
+    },
+    "creationDate": {
+        "$$date": 1686095217107
+    },
+    "modificationDate": {
+        "$$date": 1686095217107
+    },
+    "shortid": "_kK2HMo",
+    "_id": "CCUMhRKIZMlR63ET",
+    "$entitySet": "folders"
+}
