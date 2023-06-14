@@ -45,10 +45,9 @@ exports.handler = async (event) => {
   await s3.upload({
     Bucket: template.bucket,
     Key: template.key,
-    Body: res.content, // Buffer.from(JSON.stringify(listMaps)),
-    // ContentEncoding: 'base64',
+    Body: res.content,
     ContentType: 'application/pdf',
-    // ACL: 'public-read'
+    CacheControl: 'no-cache'
   }).promise()
   
   const response = {
