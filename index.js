@@ -28,22 +28,19 @@ const init = (async () => {
     return jsreport.init()
 })()
 
-exports.handler = async (event) => {  
-  console.log('handling event', event)
-  await init
+const s3 = new AWS.S3();
 
-  const template = JSON.parse(event.Records[0].body);
-  
+const createAndUploadReport = async(template) => {
+  console.log('createAndUploadReport id', template.id);
+
   const res = await jsreport.render({
     "template": {
       "name": template.id
     },
     "data": template.hasOwnProperty("data") ? template.data : undefined
   });
-
-  const s3 = new AWS.S3();
-  console.log('start upload s3');
-
+  
+  console.log('start upload s3', template.id);
   const rS3 = await s3.upload({
     Bucket: template.bucket,
     Key: template.key,
@@ -51,7 +48,20 @@ exports.handler = async (event) => {
     ContentType: 'application/pdf',
     CacheControl: 'no-cache'
   }).promise();
-  console.log('end upload s3', rS3);
+  console.log('end upload s3', template.id, rS3);
+}
+
+exports.handler = async (event) => {  
+  console.log('handling event', event)
+  await init
+
+  const promise = [];
+  event.Records.forEach(message => {
+    promise.push(JSON.parse(message.body))
+  });
+  await Promise.all(
+    promise.map(p => createAndUploadReport(p))
+  );
 
   const response = {
       statusCode: 200,
