@@ -42,14 +42,17 @@ exports.handler = async (event) => {
   });
 
   const s3 = new AWS.S3();
-  await s3.upload({
+  console.log('start upload s3');
+
+  const rS3 = await s3.upload({
     Bucket: template.bucket,
     Key: template.key,
     Body: res.content,
     ContentType: 'application/pdf',
     CacheControl: 'no-cache'
-  }).promise()
-  
+  }).promise();
+  console.log('end upload s3', rS3);
+
   const response = {
       statusCode: 200,
       body: JSON.stringify({
