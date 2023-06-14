@@ -72,7 +72,7 @@
         },
         "burst": 0
     },
-    "id": "backoffice:admin",
+    "processID": "backoffice:admin",
     "categories": {
         "labels": [
             "Design",
